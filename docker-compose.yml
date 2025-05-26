@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  etl_processes_bot:
+    image: название образа
+    container_name: etl_bot
+    ports:
+      - "1111:1111"
+    restart: always
